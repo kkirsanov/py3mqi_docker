@@ -1,2 +1,2 @@
-# py3mqi_dokcer
-dokcerfile for ibm MQ python3 client
+# py3mqi_docker
+dockerfile for ibm MQ python3 client
