@@ -23,6 +23,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     openssl
 
 RUN mkdir -p /tmp/mq
+# download 7.5.0.8-WS-MQC-LinuxX64.tar.gz from http://www-01.ibm.com/support/docview.wss?uid=swg24032744
 COPY ./7.5.0.8-WS-MQC-LinuxX64.tar.gz /tmp/mq
 
 RUN cd /tmp/mq \
